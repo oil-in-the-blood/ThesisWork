@@ -19,20 +19,26 @@ Simulink Files:
 
 Matlab .m files:
 
--RTM.m													(added 09-26-2016)
+-RTM.m													(added 09-26-2016)	(modified 09-27-2016)
 	
 	The Return Map function
 
-	[a,b,max,min] = RTM(s)
+	[a1,a0,b1,b0,max,min] = RTM(s,m)
 		
 	INPUTS
 		s = signal input, 1 dimensional vector, typically the transmitted state x1
 
+		m = Original message signal
+
 	OUTPUTS
 		
-		a = max + min
+		a1 = max + min @ m = 1
 		
-		b = max - min
+		a0 = max + min @ m = 0
+				
+		b1 = max - min @ m = 1
+
+		b0 = max - min @ m = 0
 
 		max = all the local maxima of value vector s
 
@@ -119,3 +125,41 @@ Matlab .m files:
 		pdata = extracted message vector
 
 		freq = message baud rate
+
+
+-SetupConstants.m
+
+        Script file that sets up the constants of the systems.
+
+        Message constants:
+	
+		delay: For alternating message (pulse train) initial delay till first bit transition (improve immediate synchronization)
+
+		freq: message frequency
+
+        System constants:
+
+		sig: Sigma gain
+           
+		rho: Rho gain
+
+		beta: beta gain in CSK-TS, beta modulator in std CSK (values are beta1 = beta+.5, beta2 = beta)
+
+		DGain/DOffset: Setup such as that in CSK-TS Delta 0 = DOffset + DGain, and Delta 1 = DOffset
+
+		hGain: h multiplier from CSK-TS system
+
+	Other Constants:
+
+		x0/z0: System initial conditions
+
+		NPower: Transmission noise power (should be << 1)	
+
+-savefileforRTM.m
+
+	Script to save the RTM file in tab deliminated text
+
+
+	Structure of text file:
+
+	a0 /t b0 /t a1 /t b1 /n 

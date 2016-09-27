@@ -51,5 +51,5 @@ for n = 1:r
       q = 0;
     end
 end
-errm = abs((m-pdata));
+%%errm = abs((m-pdata));
     

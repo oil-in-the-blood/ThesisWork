@@ -37,11 +37,6 @@ end
 %The Return Map
 r = size(max,2);
 for n = 1:r
-   if(mATmax(n) > 0)
-        a1 = [a1 max(n)+min(n)];
-        b1 = [b1 max(n)-min(n)];
-   else
-       a0 = [a0 max(n)+min(n)];
-       b0 = [b0 max(n)-min(n)];
-   end
+   if(mATmax > 0)
+    
 end
