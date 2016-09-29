@@ -1,6 +1,7 @@
-%The Run is to gather the RTM for the CSK-TS modulus system
+%RUN 09/28/16
+%Runs the Plus or Minus CSK-TS scheme for RTM comparison
 
-fSave = 'CSK_TS_RUN_092716';
+fSave = 'CSK_TS_RUN_092716.txt';
 SetupConstants;
 CSK_TS_MOD_PulseTrain                                  %Opens Model
 set_param('CSK_TS_MOD_PulseTrain','StopTime','800');   %Sets Stop Time

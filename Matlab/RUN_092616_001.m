@@ -1,7 +1,7 @@
 %This run is to gather data from the std CSK system to generate a RTM and
 %compare to a similar CSK-TS Systems
 
-fSave = 'CSK_Std_RUN_092616.txt';
+fSave = 'CSK_Std_RUN_092616';
 SetupConstants;
 CSK_Std_PulseTrain                                   %Opens Model
 set_param('CSK_Std_PulseTrain','StopTime','800');   %Sets Stop Time
