@@ -1,6 +1,6 @@
 RUN_092616_001
 
-	Ran on 09-26-2016
+	Ran on 09-26-2016		Reran 09-28-2016
 
 	Data pulled: Return map for a CSK_std system
 
@@ -29,14 +29,12 @@ RUN_092616_001
 
 	Results Saved As:
 
-	RTMCSK_Std_RUN_092616.txt
+	RTMCSK_Std_RUN_092616.mat
 
 
 RUN_092716
 
-        Waiting to be Ran
-
-        
+        Ran 09/27/16			Reran 09-28-2016
 
 	Data pulled: Return map for a CSK-TS-Mod system
 
@@ -65,4 +63,4 @@ RUN_092716
 
 	Results Saved As:
 
-	RTMCSK_TS_RUN_092716.txt
+	RTMCSK_TS_RUN_092716.mat

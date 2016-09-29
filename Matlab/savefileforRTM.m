@@ -1,6 +1,6 @@
 %Saves the file to include the RTM
 
-fRTM = fopen(['RTM',fSave],'a');
+fRTM = fopen(['Data\RTM',fSave],'a');
 %fSig = fopen(['SIG',fSave],'a');
 
 % r = size(t,1);
@@ -10,7 +10,11 @@ fRTM = fopen(['RTM',fSave],'a');
 % end
 % fclose(fSig);
 
-r = size(a,2);
+if(size(a0,2)<=size(a1,2))
+    r = size(a0,2);
+else
+    r = size(a1,2);
+end
 
 for n = 1:r
    fprintf(fRTM,'%0.5e \t %0.5e \t %0.5e \t %0.5e \n',a0(n),b0(n),a1(n),b1(n)); 
