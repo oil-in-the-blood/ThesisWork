@@ -1,6 +1,6 @@
 x0 = [.1;.2;-.5];       %Initial conditions for transmitter
-z0 = [.5;-.2;.3];       %and Reciever
-
+%z0 = [.5;-.2;.3];       %and Reciever
+z0 = x0;
 beta = 60;              %System Constants (For Uniqueness)
 rho = 2;
 sig = 10;

@@ -1,0 +1,3 @@
+cut: 2.07e-08 misses: 7   out of     40     low misses: 6     high misses: 1
+cut: 2.98e-08 misses: 2   out of     40     low misses: 1     high misses: 1
+cut: 4.28e-08 misses: 1   out of     40     low misses: 0     high misses: 1
