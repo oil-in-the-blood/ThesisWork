@@ -1,5 +1,5 @@
 Title: * D:\Users\Dan\Documents\GitHub\ThesisWork\LTSpice\CSK_TS_Ideal_04.asc
-Date: Mon Dec 05 23:06:40 2016
+Date: Mon Dec 05 23:32:23 2016
 Plotname: Operating Point
 Flags: real
 No. Variables: 131
@@ -935,8 +935,8 @@ Variables:
 	12	V(-15v)	voltage
 	13	V(m)	voltage
 	14	V(nc_01)	voltage
-	15	V(nc_02)	voltage
-	16	V(nc_03)	voltage
+	15	V(t2)	voltage
+	16	V(nc_02)	voltage
 	17	V(n005)	voltage
 	18	V(n003)	voltage
 	19	V(n009)	voltage
@@ -948,9 +948,9 @@ Variables:
 	25	V(n016)	voltage
 	26	V(n018)	voltage
 	27	V(n006)	voltage
-	28	V(nc_04)	voltage
-	29	V(nc_05)	voltage
-	30	V(nc_06)	voltage
+	28	V(nc_03)	voltage
+	29	V(test)	voltage
+	30	V(nc_04)	voltage
 	31	I(C6)	device_current
 	32	I(C5)	device_current
 	33	I(C4)	device_current
