@@ -1,0 +1,52 @@
+Circuit: * D:\Users\Dan\Documents\GitHub\ThesisWork\LTSpice\Draft4.asc
+
+Instance "m:u1:_max317_m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_inv2_m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_inv2_m2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_inv2_m1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_inv2_m1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m15": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m13": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m14": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_max317_m12": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:2)
+Heightened Def Con from 8.30982e-008 to 8.70982e-008
+Heightened Def Con from 0.0002 to 0.0002
+Heightened Def Con from 0.000200104 to 0.000200108
+Heightened Def Con from 0.000400083 to 0.000400083
+Heightened Def Con from 0.0006 to 0.0006
+Heightened Def Con from 0.000600104 to 0.000600114
+Heightened Def Con from 0.000800083 to 0.000800087
+Heightened Def Con from 0.001 to 0.001
+Heightened Def Con from 0.0010001 to 0.00100011
+Heightened Def Con from 0.00120008 to 0.00120008
+Heightened Def Con from 0.0014 to 0.0014
+Heightened Def Con from 0.0014001 to 0.00140011
+Heightened Def Con from 0.00160008 to 0.00160009
+Heightened Def Con from 0.0018 to 0.0018
+Heightened Def Con from 0.0018001 to 0.00180011
+
+Date: Thu Dec 15 21:25:03 2016
+Total elapsed time: 0.219 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10980
+traniter = 10966
+tranpoints = 3280
+accept = 2710
+rejected = 585
+matrix size = 48
+fillins = 12
+solver = Alternate
+Matrix Compiler1: 2.38 KB object code size  1.7/1.4/[0.7]
+Matrix Compiler2: off  [1.1]/1.6/1.3
+
+

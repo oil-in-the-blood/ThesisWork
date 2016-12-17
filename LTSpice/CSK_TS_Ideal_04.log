@@ -123,24 +123,23 @@ Ignoring empty pin current: Ix(u4:2)
 Ignoring empty pin current: Ix(u10:1)
 Ignoring empty pin current: Ix(u10:2)
 Heightened Def Con from 2e-005 to 2e-005
-Heightened Def Con from 0.00405361 to 0.00405361
 
-Date: Mon Dec 05 23:34:46 2016
-Total elapsed time: 143.347 seconds.
+Date: Sun Dec 11 21:32:18 2016
+Total elapsed time: 164.294 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1236177
-traniter = 1235795
-tranpoints = 401885
-accept = 284674
-rejected = 117213
-matrix size = 316
-fillins = 333
+totiter = 1507849
+traniter = 1507467
+tranpoints = 486512
+accept = 344977
+rejected = 141536
+matrix size = 317
+fillins = 334
 solver = Alternate
-Thread vector: 120.2/45.5[4] 34.4/13.9[4] 12.4/6.0[4] 5.1/41.0[1]  2592/500
-Matrix Compiler1: 57.42 KB object code size  14.8/9.5/[6.5]
-Matrix Compiler2: 44.38 KB object code size  9.1/8.2/[4.0]
+Thread vector: 117.6/46.7[4] 34.7/12.1[4] 14.6/5.8[4] 5.3/8.6[1]  2592/500
+Matrix Compiler1: 57.45 KB object code size  15.6/9.8/[7.9]
+Matrix Compiler2: 44.51 KB object code size  8.9/8.2/[4.0]
 
 

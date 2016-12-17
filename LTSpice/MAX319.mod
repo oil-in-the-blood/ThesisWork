@@ -1,0 +1,91 @@
+* MAX319 MACROMODEL
+* ------------------------------
+* Revision 0, 09/2009
+* ------------------------------
+* MAX319 features precision CMOS monolithic analog switches.
+* ------------------------------
+*Note:
+**       Macro model is developed using the typical device parameters given in the data sheet with 12V volts power supply.  Model does not take care of the device non-linearity with temperature variations.  Model characteristics may not match actual device behavior at abnormal operating conditions.
+** Parameters which are not modeled: 
+*  1. Crosstalk
+*
+* Connections
+*      1  = COM
+*      2  = NC
+*      3  = GND
+*      4  = V+
+*      5  = VL
+*      6  = IN
+*      7  = V-
+*      8  = NO
+****************
+.subckt MAX319 1 2 3 4 5 6 7 8
+
+M_MAX319_M1         8 MAX319_N12585696 1 MAX319_N12585646 NCHJ L=1u W=12u
+I_MAX319_I2         6 3 DC 5nA  
+E_MAX319_E3         MAX319_N12567435 3 VCCR MAX319_N12566925 1
+M_MAX319_M12         MAX319_N12568169 MAX319_N12567985 3 3 NJNT L=1u W=2u
+M_MAX319_INV1_M1         MAX319_ENO MAX319_N12567585 3 3 NMOS L=1u W=2u
+M_MAX319_INV1_M2         MAX319_ENO MAX319_N12567585 VCCR VCCR PMOS L=1u W=4u
+M_MAX319_M14         MAX319_N12566469 MAX319_N12568469 3 3 NJNT L=1u W=2u
+C_MAX319_C16         2 1  1.3p  
+C_MAX319_C13         3 1  8p  
+C_MAX319_C15         8 1  1.3p  
+E_MAX319_E4         MAX319_N12567683 3 MAX319_N12566925 3 1
+C_MAX319_C4         3 MAX319_N12566925  10n  
+M_MAX319_M13         MAX319_N12568169 MAX319_N12568013 3 3 NJNT L=1u W=2u
+M_MAX319_M15         MAX319_N12566469 MAX319_N12568493 3 3 NJNT L=1u W=2u
+M_MAX319_INV2_M1         MAX319_ENC MAX319_N12567679 3 3 NMOS L=1u W=2u
+M_MAX319_INV2_M2         MAX319_ENC MAX319_N12567679 VCCR VCCR PMOS L=1u W=4u
+V_MAX319_V6         MAX319_N12568163 3 41V
+E_MAX319_E9         MAX319_N12586308 MAX319_N12586176 MAX319_ENC 3 2
+D_MAX319_D1         MAX319_N12567435 MAX319_N125674971 diodemacro_ideal 
+I_MAX319_I3         1 3 DC 0.1nA  
+C_MAX319_C11         3 2  8pF  
+D_MAX319_CO2_D2         3 MAX319_N12566925 diodemacro_mostideal 
+G_MAX319_CO2_G1         MAX319_N12566925 3 6 MAX319_N12567049 -1E6
+D_MAX319_CO2_D1         MAX319_N12566925 VCCR diodemacro_mostideal 
+C_MAX319_C10         3 8  8pF  
+I_MAX319_I5         2 3 DC 0.25nA  
+V_MAX319_V2         MAX319_N12567049 3 1.6V
+V_MAX319_V4         3 MAX319_N12586176 41V
+I_MAX319_I4         8 3 DC 0.25nA  
+I_MAX319_I12         4 3 DC 0.1nA  
+D_MAX319_D2         MAX319_N125675290 MAX319_N12567435 diodemacro_ideal 
+I_MAX319_I14         5 3 DC 0.1nA  
+R_MAX319_R6         MAX319_N125674971 MAX319_N12567585  120  
+R_MAX319_R4         MAX319_N125675290 MAX319_N12567585  150  
+E_MAX319_EL         MAX319_N12567985 3 MAX319_N12568189 MAX319_N125680371 -1E3
+E_MAX319_EL1         MAX319_N12568469 3 1 7 -1E3
+I_MAX319_I13         7 3 DC 0.1nA  
+R_MAX319_R2         MAX319_N125675711 MAX319_N12567679  120  
+C_MAX319_C3         3 MAX319_N12567585  1n  
+E_MAX319_EH1         MAX319_N12568493 3 1 4 1E3
+E_MAX319_EH         MAX319_N12568013 3 MAX319_N12568189 MAX319_N125680651 1E3
+M_MAX319_M2         2 MAX319_N12586308 1 MAX319_N12586176 NCHJ L=1u W=12u
+E_MAX319_E6         MAX319_N12568189 MAX319_N12568375 4 3 1
+V_MAX319_VH         MAX319_N125680651 3 40V
+C_MAX319_C1         3 MAX319_N12567679  1n  
+E_MAX319_E7         MAX319_N12568375 3 7 3 -1
+E_MAX319_E2         MAX319_N12585696 MAX319_N12585646 MAX319_ENO 3 2
+E_MAX319_E8         VCCR 3 MAX319_N12566469 3 1
+D_MAX319_D3         MAX319_N12567683 MAX319_N125675711 diodemacro_ideal 
+V_MAX319_VL         MAX319_N125680371 3 9V
+D_MAX319_D4         MAX319_N125676370 MAX319_N12567683 diodemacro_ideal 
+V_MAX319_V3         3 MAX319_N12585646 41V
+E_MAX319_E5         VCC 3 MAX319_N12568169 3 1
+R_MAX319_R3         VCC MAX319_N12566469  1k  
+R_MAX319_R5         MAX319_N125676370 MAX319_N12567679  150  
+R_MAX319_R1         MAX319_N12568163 MAX319_N12568169  1k  
+******************
+.model diodemacro_ideal d(n=0.001)
+.model diodemacro_mostideal d(IS=1E-12 N=0.000001 BV=42 IBV=1)
+.model NJNT nmos(VTO=0.5 KP=50E-2)
+.model NMOS nmos(VTO=0.5 KP=100E-6)
+.model PMOS pmos(VTO=-0.5 KP=50E-6)
+.model NCHJ nmos(VTO=0.5 KP=100E-6 CGDo=2.75E-9)
+.ends MAX319
+******************
+
+
+* Copyright (c) 2003-2012 Maxim Integrated Products.  All Rights Reserved.
