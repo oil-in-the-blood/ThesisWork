@@ -1,0 +1,4 @@
+a = 1;
+b = sig + rho + 1;
+c = rho*(sig+beta);
+d = 2*sig*rho*(
