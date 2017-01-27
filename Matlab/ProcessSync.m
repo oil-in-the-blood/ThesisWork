@@ -25,13 +25,13 @@ for n = 1:r
     if (t(n) <= limit)
       if(t(n) <= upbound && t(n) >= lowbound)
           q = q + 1;
-          sum = sum + 2*sync(n);
+          sum = sum + 2*sync(n)^2;
       elseif (t(n) < lowbound)
           q = q + 1;
-          sum = sum + .5*sync(n);
+          sum = sum + .5*sync(n)^2;
       else    
           q = q + 1;
-          sum = sum + sync(n);
+          sum = sum + sync(n)^2;
       end
     elseif (t(n) >= limit)
       %disp(['Sum Is:',num2str(sum)]);
