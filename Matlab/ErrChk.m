@@ -62,14 +62,14 @@ for n = 1:r
         else
             if (m(q) == 0)
                 lowmiss = lowmiss + 1;
-                fprintf('Low ');
+                %fprintf('Low ');
             else
                 bitmiss = bitmiss + 1;
-                fprintf('High ');
+                %fprintf('High ');
             end
             misses = misses + 1;
             missloc = [missloc, t3];
-            fprintf('Miss @ time: %4.2f \t Index %d\n',t3,q);
+            %fprintf('Miss @ time: %4.2f \t Index %d\n',t3,q);
             missindex = [missindex,q];
             %fprintf(fID,'%10.5f\t%2.1f\t%2.1f\r\n',t3,t2,t1);
         end

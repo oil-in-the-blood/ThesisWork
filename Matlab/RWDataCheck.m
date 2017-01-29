@@ -10,7 +10,7 @@
 %         fprintf('Bitmiss = %4.2f \t Lowmiss = %4.2f\n',bitmiss,lowmiss);
 %     end
 % end
-cut = .008;
+cut = .02;
 weight = .4;
-pdata = ProcessSync(t,sync,freq,weight,cut);
+pdata = ProcessSyncPeak2(t,sync,freq,weight,cut);
 [allbits,misses,hits,lowmiss,bitmiss,missindex] = ErrChk(t,pdata,m,freq);
