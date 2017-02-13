@@ -37,7 +37,7 @@ end
 %The Return Map
 r = size(max,2);
 for n = 1:r
-   if(mATmax(n) > 0)
+   if(mATmax(n) > .5)
         a1 = [a1 max(n)+min(n)];
         b1 = [b1 max(n)-min(n)];
    else
