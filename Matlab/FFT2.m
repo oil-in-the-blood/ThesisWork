@@ -12,3 +12,6 @@ P1 = P2(1:L/2+1);
 P1(2:end-1) = 2*P1(2:end-1);
 f = Fs * (0:(L/2))/L;
 plot(f,P1);
+dB = 10*log10(P1);
+figure
+plot(f,dB);
