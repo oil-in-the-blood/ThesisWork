@@ -14,5 +14,7 @@ q = logspace(-1,3,10);
 
 for i=1:10
     cut = q(i);
+    disp(['Cutoff = ',num2str(cut)]);
     TextRun;
+    disp(['Cutoff = ',num2str(cut)]);
 end

@@ -24,7 +24,7 @@
 
 %}
 
-function [allbits,misses,hits,lowmiss,bitmiss,missindex] = ErrChk(t,pdata,m,freq)
+function [allbits,misses,hits,lowmiss,bitmiss,missindex,lowbits] = ErrChk(t,pdata,m,freq)
 
 r = size(t,1);
 spot = (1/freq)/2;

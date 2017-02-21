@@ -24,13 +24,17 @@ z3 = [z0(3)];
 
 FinalBitCount = 0;
 FinalMissCount = 0;
+FinalLowMissCount = 0;
+FinalLowBitCount = 0;
+SNRsum = 0;
+
 
 for nRun = 1:nTotRuns
 	istart = 1+(nRun-1)*charPERrun;
 	iend = charPERrun*nRun;
 	nsig = [];
-	for i = istart:iend
-		nsig = [nsig;unicode2native(m2(i))];
+	for u = istart:iend
+		nsig = [nsig;unicode2native(m2(u))];
 	end
 	[message] = cmsg2bitmsg(nsig,freq,res,pad); 
 	
@@ -50,7 +54,7 @@ for nRun = 1:nTotRuns
     
     
     pdata = ProcessSync (t,sync,freq,weight,cut);
-    [allbits,misses,hits,lowmiss,bitmiss,missindex] = ErrChk(t,pdata,m,freq);
+    [allbits,misses,hits,lowmiss,bitmiss,missindex,lowbits] = ErrChk(t,pdata,m,freq);
     
     disp(['Misses: ',num2str(misses),' OUT OF: ',num2str(allbits)]);
     disp(['Bit Misses: ',num2str(bitmiss)]);
@@ -58,8 +62,16 @@ for nRun = 1:nTotRuns
     
     FinalBitCount = FinalBitCount + allbits;
     FinalMissCount = FinalMissCount + misses;
+    FinalLowMissCount = FinalLowMissCount + lowmiss;
+    FinalLowBitCount = FinalLowBitCount + lowbits;
     
-    figure
-    plotyy(t,m,t,sync);
+    SNR = 10*log10((rms(x1)^2)/(rms(ni)^2));
+    
+    disp(['SNR: ',num2str(SNR)]);
+    SNRsum = SNRsum + SNR;
+    
 end
-
+%disp(['***********************************************************************************']);
+disp(['Final Misses: ',num2str(FinalMissCount),' OUT OF Final Bits:',num2str(FinalBitCount)]);
+disp(['***********************************************************************************']);
+SNRavg = SNRsum/nTotRuns;
