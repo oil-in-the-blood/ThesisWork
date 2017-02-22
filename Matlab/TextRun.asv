@@ -63,7 +63,7 @@ for nRun = 1:nTotRuns
     FinalLowMissCount = FinalLowMissCount + lowmiss;
     FinalLowBitCount = FinalLowBitCount + lowbits;
     
-    fprintf('Character Number %d of %d\n High Miss: %d out of %d\n Low Miss: %d out of %d\n',nRun,nTotRuns,FinalMissCount-FinalLowMissCount,FinalBitCount-FinalLowBitCount,FinalLowMissCount,FinalLowBitCount);
+    fprintf('Character Number %d of %d\n High Miss: %d out of %d\n Low Miss: %d out of %d\n',nRun,nTotRuns,totalHIGHmiss,totalHIGHbits,totalLOWmiss,totalLOWbits);
     
     
 %     SNR = 10*log10((rms(x1)^2)/(rms(ni)^2));

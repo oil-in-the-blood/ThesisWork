@@ -6,7 +6,7 @@ x0 = [.1,.2,.3];
 z0 = x0;
 res = 1000;
 pad = .2;
-charPERrun = 10;
+charPERrun = 1;
 NPower = 0;
 weight = 0.4;
 

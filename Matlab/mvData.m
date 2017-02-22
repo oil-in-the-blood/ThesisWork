@@ -4,6 +4,6 @@ function mvData(src,event)
     data = event.Data;
     sync = (data(:,2)-0.5).*(data(:,2)-0.5);
     message = data(:,1);
-    plot(time,message,time,sync);
-    save log.mat time message sync;
+    %plot(time,message,time,sync);
+    save log.mat time message sync data;
 end

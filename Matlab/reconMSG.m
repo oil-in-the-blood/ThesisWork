@@ -1,14 +1,14 @@
 function [m] = reconMSG(msg,f,t)
 
 per = 1/f;
-m = zeros(1,size(msg,2));
+m = zeros(size(msg,1),1);
 g = 1;
 count = 0;
 sum = 0;
 istart = 1;
 iend = 0;
 
-for u = 1:size(msg,2)
+for u = 1:size(msg,1)
     if (t(u) > g*per)
         g = g+1;
         avg = sum/count;
