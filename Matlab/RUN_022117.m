@@ -10,5 +10,5 @@ charPERrun = 1;
 NPower = 0;
 weight = 0.8;
 cut = 8;
-
-TextRun;
+delay = 0;
+%TextRun;
