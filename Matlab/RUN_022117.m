@@ -11,4 +11,5 @@ NPower = 0;
 weight = 0.8;
 cut = 8;
 delay = 0;
+PHI = sqrt(rho*(beta-1));
 %TextRun;

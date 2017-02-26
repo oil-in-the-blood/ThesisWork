@@ -20,7 +20,7 @@ for e = 2:limit-1
     if(x(e) > x(e-1) && x(e) > x(e+1))
        Xi = [Xi,x(e)];
        ti = [ti,t(e)];
-       if(m(e) == 0)
+       if(m(e) < 1)
            a = [a 0];
        else
            a = [a 1];
