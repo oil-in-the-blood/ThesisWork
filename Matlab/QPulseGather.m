@@ -1,5 +1,5 @@
 s = daq.createSession('ni');
-% p1 = serial('COM4');
+% p1 = serial('COM5');
 % set(p1,'BaudRate',9600);
 % fopen(p1);
 s.Rate = 5000;
@@ -26,3 +26,4 @@ s.startBackground;
 fprintf(p1,'start')
 s.wait();
 load log.mat time message sync data;
+plot(data);

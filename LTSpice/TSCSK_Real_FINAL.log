@@ -17,48 +17,307 @@ Gmin = 0.00016455
 Gmin = 1.76685e-005
 vernier = 0.5
 vernier = 0.25
-Gmin = 6.03354e-006
+Gmin = 6.05449e-006
 vernier = 0.333333
 vernier = 0.166667
-vernier = 0.222222
-Gmin = 4.12847e-006
-vernier = 0.296296
-Gmin = 2.20401e-006
-vernier = 0.395061
-vernier = 0.526748
-Gmin = 8.04581e-007
-vernier = 0.702331
-vernier = 0.936441
-Gmin = 1.70419e-007
-vernier = 1
-Gmin = 1.95073e-008
-Gmin = 2.09458e-009
-Gmin = 2.24904e-010
-Gmin = 2.41489e-011
-Gmin = 2.59297e-012
-Gmin = 2.78418e-013
-Gmin = 2.98949e-014
-Gmin = 3.20994e-015
+vernier = 0.0833333
+Gmin = 4.37829e-006
+vernier = 0.111111
+Gmin = 3.44377e-006
+vernier = 0.148148
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 2.91141e-006
+vernier = 0.131687
+vernier = 0.0658435
+Gmin = 2.47383e-006
+vernier = 0.0877914
+vernier = 0.117055
+vernier = 0.0585276
+vernier = 0.0292638
+Gmin = 2.13651e-006
+vernier = 0.0390184
+Gmin = 1.96245e-006
+vernier = 0.0520245
+vernier = 0.0260122
+vernier = 0.034683
+Gmin = 1.8493e-006
+vernier = 0.046244
+vernier = 0.023122
+vernier = 0.011561
+Gmin = 1.77113e-006
+vernier = 0.0154146
+vernier = 0.0205529
+Gmin = 1.70321e-006
+vernier = 0.0274038
+Gmin = 1.60168e-006
+vernier = 0.0365384
+vernier = 0.0182692
+vernier = 0.0243589
+Gmin = 1.53734e-006
+vernier = 0.0324786
+vernier = 0.0433047
+Gmin = 1.42269e-006
+vernier = 0.0216524
+vernier = 0.0288698
+Gmin = 1.3601e-006
+vernier = 0.0384931
+vernier = 0.0192465
+vernier = 0.025662
+Gmin = 1.30054e-006
+vernier = 0.0342161
+vernier = 0.017108
+Gmin = 1.24359e-006
+vernier = 0.0228107
+vernier = 0.0304143
+Gmin = 1.17374e-006
+vernier = 0.0405523
+Gmin = 1.07184e-006
+vernier = 0.0540698
+vernier = 0.0270349
+vernier = 0.0360465
+vernier = 0.0180232
+Gmin = 1.03169e-006
+vernier = 0.024031
+Gmin = 9.77536e-007
+vernier = 0.0320413
+vernier = 0.0160207
+vernier = 0.0213609
+vernier = 0.0106804
+Gmin = 9.55641e-007
+vernier = 0.0142406
+Gmin = 9.25555e-007
+vernier = 0.0189874
+vernier = 0.0253166
+vernier = 0.0126583
+Gmin = 8.9396e-007
+vernier = 0.0168777
+vernier = 0.0225036
+Gmin = 8.58604e-007
+vernier = 0.0300048
+vernier = 0.0150024
+vernier = 0.0075012
+Gmin = 8.31732e-007
+vernier = 0.0100016
+vernier = 0.0133355
+Gmin = 8.12063e-007
+vernier = 0.0177806
+Gmin = 7.81144e-007
+vernier = 0.0237075
+vernier = 0.0118537
+vernier = 0.015805
+Gmin = 7.60246e-007
+vernier = 0.0210733
+vernier = 0.0105366
+Gmin = 7.40515e-007
+vernier = 0.0140489
+vernier = 0.0187318
+Gmin = 7.13129e-007
+vernier = 0.0249757
+vernier = 0.0124879
+vernier = 0.00624394
+Gmin = 6.9883e-007
+vernier = 0.00832524
+vernier = 0.0111003
+Gmin = 6.83386e-007
+vernier = 0.0148004
+vernier = 0.0197339
+Gmin = 6.5962e-007
+vernier = 0.00986695
+vernier = 0.0131559
+Gmin = 6.46215e-007
+vernier = 0.0175412
+vernier = 0.0233883
+vernier = 0.0116942
+Gmin = 6.2535e-007
+vernier = 0.0155922
+Gmin = 6.04416e-007
+vernier = 0.0207896
+vernier = 0.0103948
+vernier = 0.0138597
+Gmin = 5.9021e-007
+vernier = 0.0184796
+vernier = 0.00923982
+Gmin = 5.76752e-007
+vernier = 0.0123198
+vernier = 0.0164263
+vernier = 0.00821317
+Gmin = 5.63746e-007
+vernier = 0.0109509
+Gmin = 5.50042e-007
+vernier = 0.0146012
+vernier = 0.0194682
+vernier = 0.00973411
+vernier = 0.00486706
+Gmin = 5.37493e-007
+vernier = 0.00648941
+Gmin = 5.29708e-007
+vernier = 0.00865254
+vernier = 0.0115367
+Gmin = 5.16896e-007
+vernier = 0.0153823
+vernier = 0.00769114
+vernier = 0.0102549
+Gmin = 5.07713e-007
+vernier = 0.0136731
+Gmin = 4.92774e-007
+vernier = 0.0182308
+vernier = 0.00911542
+vernier = 0.00455771
+vernier = 0.00607695
+Gmin = 4.87567e-007
+vernier = 0.00810259
+Gmin = 4.79009e-007
+vernier = 0.0108035
+vernier = 0.0144046
+vernier = 0.0072023
+Gmin = 4.69521e-007
+vernier = 0.00960307
+Gmin = 4.59496e-007
+vernier = 0.0128041
+vernier = 0.0170721
+vernier = 0.00853606
+Gmin = 4.48851e-007
+vernier = 0.0113814
+vernier = 0.0056907
+Gmin = 4.42831e-007
+vernier = 0.0075876
+vernier = 0.0101168
+Gmin = 4.33422e-007
+vernier = 0.0134891
+vernier = 0.00674453
+vernier = 0.00899271
+Gmin = 4.26662e-007
+vernier = 0.0119903
+Gmin = 4.15631e-007
+vernier = 0.015987
+vernier = 0.00799351
+vernier = 0.010658
+vernier = 0.00532901
+Gmin = 4.10273e-007
+vernier = 0.00710534
+Gmin = 4.0395e-007
+vernier = 0.00947379
+vernier = 0.0126317
+vernier = 0.00631586
+Gmin = 3.96924e-007
+vernier = 0.00842114
+Gmin = 3.89482e-007
+vernier = 0.0112282
+vernier = 0.0149709
+vernier = 0.00748545
+vernier = 0.00374273
+Gmin = 3.82628e-007
+vernier = 0.0049903
+Gmin = 3.78358e-007
+vernier = 0.00665373
+vernier = 0.00887164
+Gmin = 3.71299e-007
+vernier = 0.0118289
+vernier = 0.0157718
+vernier = 0.0078859
+Gmin = 3.63165e-007
+vernier = 0.00394295
+vernier = 0.00197147
+vernier = 0.000985737
+vernier = 0.000492869
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Heightened Def Con from 17.1616 to 17.1616
+Heightened Def Con from 17.1616 to 17.1616
+Heightened Def Con from 17.5539 to 17.5539
+Heightened Def Con from 17.7501 to 17.7501
+Heightened Def Con from 17.85 to 17.85
+Heightened Def Con from 18.4932 to 18.4932
+Heightened Def Con from 18.4933 to 18.4933
+Heightened Def Con from 18.5733 to 18.5733
+Heightened Def Con from 19.0569 to 19.0569
+Heightened Def Con from 19.3473 to 19.3473
+Heightened Def Con from 19.5325 to 19.5325
+Heightened Def Con from 19.9907 to 19.9907
+Heightened Def Con from 20.0896 to 20.0896
+Heightened Def Con from 20.0977 to 20.0977
+Heightened Def Con from 20.0977 to 20.0977
+Heightened Def Con from 20.3182 to 20.3182
+Heightened Def Con from 20.4256 to 20.4256
+Heightened Def Con from 20.4323 to 20.4323
+Heightened Def Con from 20.7354 to 20.7354
+Heightened Def Con from 20.8487 to 20.8487
+Heightened Def Con from 20.932 to 20.932
+Heightened Def Con from 21.0401 to 21.0401
+Heightened Def Con from 21.5185 to 21.5185
+Heightened Def Con from 22.0057 to 22.0057
+Heightened Def Con from 22.0116 to 22.0116
+Heightened Def Con from 22.5001 to 22.5001
+Heightened Def Con from 22.5607 to 22.5607
+Heightened Def Con from 22.6022 to 22.6022
+Heightened Def Con from 22.6022 to 22.6022
+Heightened Def Con from 22.6094 to 22.6094
+Heightened Def Con from 22.8459 to 22.8459
+Heightened Def Con from 22.846 to 22.846
+Heightened Def Con from 22.9375 to 22.9375
+Heightened Def Con from 22.955 to 22.955
+Heightened Def Con from 23.0243 to 23.0243
+Heightened Def Con from 23.0245 to 23.0245
+Heightened Def Con from 23.1291 to 23.1291
+Heightened Def Con from 23.3188 to 23.3188
+Heightened Def Con from 23.3619 to 23.3619
+Heightened Def Con from 23.5785 to 23.5785
+Heightened Def Con from 23.6689 to 23.6689
+Heightened Def Con from 23.7805 to 23.7805
+Heightened Def Con from 23.8782 to 23.8782
+Heightened Def Con from 24.1377 to 24.1377
+Heightened Def Con from 24.3155 to 24.3155
+Heightened Def Con from 24.3458 to 24.3458
+Heightened Def Con from 24.4139 to 24.4139
+Heightened Def Con from 24.4274 to 24.4274
+Heightened Def Con from 24.5115 to 24.5115
+Heightened Def Con from 24.5563 to 24.5563
+Heightened Def Con from 24.6043 to 24.6043
+Heightened Def Con from 24.7116 to 24.7116
+Heightened Def Con from 24.716 to 24.716
+Heightened Def Con from 24.7993 to 24.7993
+Heightened Def Con from 24.7995 to 24.7995
+Heightened Def Con from 24.8087 to 24.8087
+Heightened Def Con from 24.9604 to 24.9604
+Heightened Def Con from 25.0513 to 25.0513
+Heightened Def Con from 25.2514 to 25.2514
+Heightened Def Con from 25.3301 to 25.3301
+Heightened Def Con from 25.438 to 25.438
+Heightened Def Con from 25.5892 to 25.5892
+Heightened Def Con from 25.5893 to 25.5893
+Heightened Def Con from 26.1384 to 26.1384
+Heightened Def Con from 26.2297 to 26.2297
+Heightened Def Con from 26.6099 to 26.6099
+Heightened Def Con from 26.6888 to 26.6888
+Heightened Def Con from 26.7959 to 26.7959
+Heightened Def Con from 26.9476 to 26.9476
+Heightened Def Con from 27.0549 to 27.0549
+Heightened Def Con from 27.2064 to 27.2064
+Heightened Def Con from 27.7468 to 27.7468
+Heightened Def Con from 29.0208 to 29.0208
+Heightened Def Con from 29.617 to 29.617
+Heightened Def Con from 29.7194 to 29.7194
+Heightened Def Con from 29.7991 to 29.7991
+Heightened Def Con from 29.9848 to 29.9848
 
-Date: Mon Feb 13 00:25:26 2017
-Total elapsed time: 114.550 seconds.
+Date: Tue Mar 14 20:33:19 2017
+Total elapsed time: 69.254 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1003426
-traniter = 1001851
-tranpoints = 238519
-accept = 199630
-rejected = 38889
+totiter = 555437
+traniter = 547671
+tranpoints = 132953
+accept = 106931
+rejected = 26099
 matrix size = 202
 fillins = 449
 solver = Alternate
-Thread vector: 237.5/82.0[4] 37.4/19.0[4] 17.6/7.9[4] 3.9/303.9[1]  2592/500
-Matrix Compiler1: 41.36 KB object code size  11.3/6.9/[4.5]
-Matrix Compiler2: 33.50 KB object code size  5.1/4.6/[2.9]
+Thread vector: 192.7/57.2[4] 38.1/17.9[4] 27.1/11.4[4] 3.3/11.6[1]  2592/500
+Matrix Compiler1: 41.25 KB object code size  11.2/6.7/[4.5]
+Matrix Compiler2: 33.58 KB object code size  4.8/4.7/[2.6]
 
 

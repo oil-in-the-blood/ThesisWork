@@ -44,11 +44,11 @@ for nRun = 1:nTotRuns
     
     warning('off','all');
     
-    CSK_TS_PM_Message
-    set_param('CSK_TS_PM_Message','StopTime',sTIME); 
-    sim('CSK_TS_PM_Message');
-    save_system('CSK_TS_PM_Message');
-    close_system('CSK_TS_PM_Message');
+    CSK_TS_4Sec_Message
+    set_param('CSK_TS_4Sec_Message','StopTime',sTIME); 
+    sim('CSK_TS_4Sec_Message');
+    save_system('CSK_TS_4Sec_Message');
+    close_system('CSK_TS_4Sec_Message');
     
     warning('on','all');
     
@@ -70,7 +70,7 @@ for nRun = 1:nTotRuns
 %     
 %     disp(['SNR: ',num2str(SNR)]);
 %     SNRsum = SNRsum + SNR;
-    
+    plot(t,sync,t,m);
 end
 %disp(['***********************************************************************************']);
 disp(['Final Misses: ',num2str(FinalMissCount),' OUT OF Final Bits:',num2str(FinalBitCount)]);
