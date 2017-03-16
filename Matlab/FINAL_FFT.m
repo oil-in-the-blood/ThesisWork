@@ -5,11 +5,14 @@
 % sim('CSK_TS_PM_PulseTrain');                          %Runs Simulation
 % close_system('CSK_TS_PM_PulseTrain',1);
 
-% ts = .008;
-% [ti,xi] = Interpol(t,x1,ts);
-% 
-% Fs = 1/ts;
-% L = size(ti,2);
+%ts = .008;
+%[ti,xi] = Interpol(time1,Vx,ts);
+%
+ts = time(2)-time(1);
+ti = time';
+xi = X';
+Fs = 1/ts;
+L = size(ti,2);
 
 Y = fft(xi);
 P2 = abs(Y/L);

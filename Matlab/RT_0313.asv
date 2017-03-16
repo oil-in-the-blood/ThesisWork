@@ -1,2 +1,0 @@
-load Run001 time data;
-[peaks,ptime,pmsg] = PeakTest(data(:,2),times,
