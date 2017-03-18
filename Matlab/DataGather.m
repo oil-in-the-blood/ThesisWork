@@ -3,7 +3,7 @@ s = daq.createSession('ni');
 % set(p1,'BaudRate',9600);
 %fopen(p1);
 s.Rate = 5000;
-s.DurationInSeconds = 8.1;
+s.DurationInSeconds = 20.1;
 ch1 = addAnalogInputChannel(s,'Dev1',1,'Voltage');
 ch1.Range = [-10,10];
 ch1.TerminalConfig = 'SingleEnded';
@@ -16,11 +16,12 @@ lh = addlistener(s,'DataAvailable',@mvData);
 s.NotifyWhenDataAvailableExceeds = s.DurationInSeconds * s.Rate;
 pause(3);
 
-mID = fopen('test3.txt','r');
-m2 = fscanf(mID,'%c');
+mID = fopen('test2.txt','r');
+%m2 = fscanf(mID,'%c');
+m2 = 1;
 fclose(mID);
 fprintf(p1,'width:75')
-fprintf(p1,'mode:0')
+fprintf(p1,'mode:1')
 fprintf(p1,'period:1000')
 f = 1;
 totalHIGHbits = 0;
@@ -29,9 +30,9 @@ totalHIGHmiss = 0;
 totalLOWmiss = 0;
 
 for i = 1:size(m2,2)
-    fprintf(p1,'%s','message:')
-    fprintf(p1,'%c',m2(i))
-    fprintf(p1,'');
+%     fprintf(p1,'%s','message:')
+%     fprintf(p1,'%c',m2(i))
+%     fprintf(p1,'');
     s.startBackground;
     fprintf(p1,'start')
     s.wait();

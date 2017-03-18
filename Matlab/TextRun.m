@@ -1,5 +1,5 @@
 %Load In M(t) from text
-mID = fopen('test3.txt','r');
+mID = fopen('test2.txt','r');
 m2 = fscanf(mID,'%c');
 fclose(mID);
 
